@@ -1,0 +1,432 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://sbmi.uth.edu/ontology/vaxmo"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://sbmi.uth.edu/ontology/vaxmo">
+    <Prefix name="" IRI="http://sbmi.uth.edu/ontology/vaxmo"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://sbmi.uth.edu/ontology/mo</Import>
+    <Import>http://www.nanopub.org/nschema</Import>
+    <Import>http://www.w3.org/2004/02/skos/core</Import>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <Literal>An ontology for vaccine misinformation based on Misinformation Ontology by Zhou and Zhang (2004, 2007).</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/creator"/>
+        <Literal>Tuan Amith, Cui Tao</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/title"/>
+        <Literal>Vaccine Misinformation Ontology (VAXMO)</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>Amith, M., &amp; Tao, C. (2018). Representing vaccine misinformation using ontologies. Journal of Biomedical Semantics, 9(1), 22. https://doi.org/10.1186/s13326-018-0190-0</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Adverse_Effects"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Advocating_Back_to_Nature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alternative_Treatments"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alternative_medicine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anti-science"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anti-utilitarianism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anti-vaccination_Information"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anti-vaccine_Evidence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Biased_Confirmation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Civil_liberties"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Conspiracy_theories"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contaminated_hot_lots"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Controversial_Vaccine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cover-up_Schemes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Critique_of_Biomedicine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disease_Decreases"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Effects_from_multiple_vaccination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#False_Asserted_Nanopublication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fear-mongering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flu_Vaccine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Government_Liability_Protection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HBV_Vaccine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HPV_Vaccine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ideological"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Idiopathic_Illnesses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Illegal_Cooperation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Immoral_Activities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Immunity_Deterioration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Impending_Totalitarianism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inaccurate_Vaccine_Claims"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Informed_Choices"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lack_of_Sources"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MMR_Vaccine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Meningococcal_Vaccine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Misrepresentation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Monitoring"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Outdated_Sources"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parental_Rights_Violation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pertussis_Vaccine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Poisonous_Content"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Privileged_Knowledge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Products_for_Sale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Profit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Religious_Tenets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Smallpox_Vaccine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Treatment_of_Trivial_Diseases"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Undereported_Adverse_Effects"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unenlightened_Doctors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unsubstantiated_Vaccine_Theory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unusual_Vaccination_Theories"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vaccine_inefficacy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Whistleblowing_Doctors"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#linkedToFalseAssertedNanopublication"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/creator"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/title"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Indication"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Misinformation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Subject"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Adverse_Effects"/>
+        <Class IRI="#Anti-vaccine_Evidence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Advocating_Back_to_Nature"/>
+        <Class IRI="#Anti-vaccine_Evidence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alternative_Treatments"/>
+        <Class IRI="#Anti-vaccine_Evidence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alternative_medicine"/>
+        <Class IRI="#Anti-vaccination_Information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anti-science"/>
+        <Class IRI="#Anti-vaccine_Evidence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anti-utilitarianism"/>
+        <Class IRI="#Anti-vaccine_Evidence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anti-vaccination_Information"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Misinformation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anti-vaccine_Evidence"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Indication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Biased_Confirmation"/>
+        <Class IRI="#Anti-vaccine_Evidence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Civil_liberties"/>
+        <Class IRI="#Anti-vaccination_Information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Conspiracy_theories"/>
+        <Class IRI="#Anti-vaccination_Information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Contaminated_hot_lots"/>
+        <Class IRI="#Adverse_Effects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Controversial_Vaccine"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Subject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cover-up_Schemes"/>
+        <Class IRI="#Anti-vaccine_Evidence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Critique_of_Biomedicine"/>
+        <Class IRI="#Anti-vaccine_Evidence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disease_Decreases"/>
+        <Class IRI="#Anti-vaccine_Evidence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Effects_from_multiple_vaccination"/>
+        <Class IRI="#Adverse_Effects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#False_Asserted_Nanopublication"/>
+        <Class IRI="http://www.nanopub.org/nschema#Nanopublication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fear-mongering"/>
+        <Class IRI="#Anti-vaccine_Evidence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flu_Vaccine"/>
+        <Class IRI="#Controversial_Vaccine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Government_Liability_Protection"/>
+        <Class IRI="#Anti-vaccine_Evidence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HBV_Vaccine"/>
+        <Class IRI="#Controversial_Vaccine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HPV_Vaccine"/>
+        <Class IRI="#Controversial_Vaccine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ideological"/>
+        <Class IRI="#Anti-vaccination_Information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Idiopathic_Illnesses"/>
+        <Class IRI="#Anti-vaccine_Evidence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Illegal_Cooperation"/>
+        <Class IRI="#Anti-vaccine_Evidence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Immoral_Activities"/>
+        <Class IRI="#Anti-vaccine_Evidence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Immunity_Deterioration"/>
+        <Class IRI="#Anti-vaccine_Evidence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Impending_Totalitarianism"/>
+        <Class IRI="#Anti-vaccine_Evidence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inaccurate_Vaccine_Claims"/>
+        <Class IRI="#Anti-vaccine_Evidence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Informed_Choices"/>
+        <Class IRI="#Anti-vaccine_Evidence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lack_of_Sources"/>
+        <Class IRI="#Anti-vaccine_Evidence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MMR_Vaccine"/>
+        <Class IRI="#Controversial_Vaccine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Meningococcal_Vaccine"/>
+        <Class IRI="#Controversial_Vaccine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Misrepresentation"/>
+        <Class IRI="#Anti-vaccine_Evidence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Monitoring"/>
+        <Class IRI="#Anti-vaccine_Evidence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Outdated_Sources"/>
+        <Class IRI="#Anti-vaccine_Evidence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parental_Rights_Violation"/>
+        <Class IRI="#Anti-vaccine_Evidence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pertussis_Vaccine"/>
+        <Class IRI="#Controversial_Vaccine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Poisonous_Content"/>
+        <Class IRI="#Anti-vaccine_Evidence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Privileged_Knowledge"/>
+        <Class IRI="#Anti-vaccine_Evidence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Products_for_Sale"/>
+        <Class IRI="#Anti-vaccine_Evidence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Profit"/>
+        <Class IRI="#Anti-vaccine_Evidence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Religious_Tenets"/>
+        <Class IRI="#Anti-vaccine_Evidence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Smallpox_Vaccine"/>
+        <Class IRI="#Controversial_Vaccine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Treatment_of_Trivial_Diseases"/>
+        <Class IRI="#Anti-vaccine_Evidence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Undereported_Adverse_Effects"/>
+        <Class IRI="#Anti-vaccine_Evidence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Unenlightened_Doctors"/>
+        <Class IRI="#Anti-vaccine_Evidence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Unsubstantiated_Vaccine_Theory"/>
+        <Class IRI="#False_Asserted_Nanopublication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Unusual_Vaccination_Theories"/>
+        <Class IRI="#Anti-vaccine_Evidence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vaccine_inefficacy"/>
+        <Class IRI="#Anti-vaccination_Information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Whistleblowing_Doctors"/>
+        <Class IRI="#Anti-vaccine_Evidence"/>
+    </SubClassOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#linkedToFalseAssertedNanopublication"/>
+        <Class IRI="http://sbmi.uth.edu/ontology/mo#Misinformation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#linkedToFalseAssertedNanopublication"/>
+        <Class IRI="#False_Asserted_Nanopublication"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
